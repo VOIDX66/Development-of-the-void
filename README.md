@@ -1,2 +1,3 @@
-# Development-of-the-void
-Archivos y proyectos personales
+# Development-of-the-void 
+Proyectos y tareas.
+# Introducción a la infomatica G1
