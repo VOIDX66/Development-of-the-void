@@ -4,7 +4,7 @@ _ _ _
 
 ![Development-of-the-void](https://github.com/VOIDX66/Development-of-the-void/blob/master/giphy.gif)
 
-### ***Proyectos, tareas y más contenidos***
+### ***Proyectos, tareas y más contenidos.***
 
 
      
