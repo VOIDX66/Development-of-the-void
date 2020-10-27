@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function texto ( cadena ) {
+  document.write ( cadena + "<br>" );
+}
+
+function salto () {
+  document.write ( "<br>" );
+}
+function multiplicar ( a, b ) {
+  if ( a == 0 ) {
+    return 0;
+  }
+  else {
+    return b + multiplicar ( a - 1, b );
+  }
+}
+
+var x = 35;
+var y = 7;
+
+respuesta = multiplicar ( x, y );
+
+salto();
+texto ( "MULTIPLICAR RECURSIVO" );
+texto ( x + " * " + y + " = " + respuesta ); salto();
+    </script>
+  </body>
+</html>

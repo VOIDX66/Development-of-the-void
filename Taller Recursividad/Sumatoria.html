@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sumatoria</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function texto(cadena){
+  document.write(cadena + "<br>");
+}
+function salto(){
+  document.write("<br>");
+}
+///////////////////////////////////////////////////////
+function sumatoria(n){
+  if(n == 0){
+return 0;
+  }
+  else{
+    return n+sumatoria(n-1);
+  }
+}
+texto(sumatoria(4));
+///////////////////////////////////////////////////////
+    </script>
+  </body>
+</html>

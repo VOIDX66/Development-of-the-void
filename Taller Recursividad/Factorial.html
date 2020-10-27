@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Factorial</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function texto(cadena){
+  document.write(cadena + "<br>");
+}
+function salto(){
+  document.write("<br>");
+}
+
+function factorial(a){
+  if(a == 0){
+    return 1;
+
+  }
+  else{
+  return a * factorial(a - 1);
+  }
+}
+texto(factorial(prompt("Introduzca un valor")));
+    </script>
+  </body>
+</html>
