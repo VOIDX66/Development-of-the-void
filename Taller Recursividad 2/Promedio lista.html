@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Promedio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+    function promedio(nums){
+  if ( nums.length === 0){
+    return 0;
+  }
+  else{
+    const[first, ...rest] = nums;
+    return first + promedio(rest);
+  }
+}
+lista = [0,1,2,3,4,5,6,7,8,9];
+promedio(lista);
+respuesta = promedio(lista)/lista.length;
+
+document.write("Promedio de la lista = " + respuesta);
+    </script>
+  </body>
+</html>

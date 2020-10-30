@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sumatoria 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function sumatoria(num){
+  if( num == 00){
+    return 0;
+  }
+  else{
+    return num + sumatoria(num-1);
+  }
+}
+document.write(sumatoria(100));
+    </script>
+  </body>
+</html>
